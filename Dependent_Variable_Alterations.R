@@ -1,6 +1,4 @@
 # Dependent Variable Alterations
-# Jan. 26, 2026
-setwd("/Users/charleszinn/Desktop/THESIS!!!/Data, Variables")
 library(dplyr)
 library(stringr)
 library(tidygeocoder)
@@ -146,7 +144,7 @@ data_county <- county_polygons2 %>%
 # Side issue: Wichita Falls area doesn't have Jewish pop estimates
 wichita <- data_county[, c("GEOID", "jewish_pop_county")]
 wichita <- st_drop_geometry(wichita)
-write.csv(wichita, "wichita.csv")
+write.csv(wichita, "wichita.csv") # Manually fix in Excel
 wichita <- read.csv("wichita.csv")
 wichita$GEOID <- str_pad(wichita$GEOID, width = 5, pad = "0")
 wichita$GEOID <- as.character(wichita$GEOID)

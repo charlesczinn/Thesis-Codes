@@ -2,7 +2,7 @@
 Various codes used for data cleaning, processing, and analysis for Master’s thesis at the University of Utah. CSV files are used in the scripts.
 
 Dependent_Variable_Alterations.R
-- Taking raw incident data from the Anti-Defamation League (ADL) then cleaning, geocoding, cleaning, and joining with county spatial data.
+- Taking raw incident data from the Anti-Defamation League (ADL) then cleaning, geocoding, manipulating, and joining with county spatial data.
 
 nlp_thesis_processing.ipynb
 - Using ADL incident descriptions to identify events included in repository due to change in methods after October 7, 2023.

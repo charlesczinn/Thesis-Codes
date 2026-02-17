@@ -1,5 +1,5 @@
 # Thesis-Codes
-Various codes used for data cleaning, processing, and analysis for Master’s thesis at the University of Utah.
+Various codes used for data cleaning, processing, and analysis for Master’s thesis at the University of Utah. CSV files are used in the scripts.
 
 Dependent_Variable_Alterations.R
 - Taking raw incident data from the Anti-Defamation League (ADL) then cleaning, geocoding, cleaning, and joining with county spatial data.

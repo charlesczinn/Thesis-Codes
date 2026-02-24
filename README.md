@@ -12,3 +12,8 @@ nlp_thesis_processing.ipynb
 Independent_Variable_Processing.R
 - Cleaning data for inlcusion in dataset as independent variables
 - Data gathered from U.S. Census Bureau ACS, USDA, and the Southern Poverty Law Center (SPLC)
+
+Antisemitism_Rate_PD.ipynb
+- Runs a regression random forest predicting antisemitic incident rate from covariates
+- Produces partial dependency plots for risk model covariates
+- Shows the relationship between the independent variable and demographic and economic data
